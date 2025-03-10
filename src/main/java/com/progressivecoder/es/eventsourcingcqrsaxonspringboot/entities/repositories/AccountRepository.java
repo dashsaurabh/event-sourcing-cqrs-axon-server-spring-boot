@@ -3,5 +3,5 @@ package com.progressivecoder.es.eventsourcingcqrsaxonspringboot.entities.reposit
 import com.progressivecoder.es.eventsourcingcqrsaxonspringboot.entities.AccountQueryEntity;
 import org.springframework.data.repository.CrudRepository;
 
-public interface AccountRepository extends CrudRepository<AccountQueryEntity, String> {
+public interface AccountNewRepository extends CrudRepository<AccountQueryEntity, String> {
 }
